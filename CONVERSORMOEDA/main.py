@@ -62,6 +62,3 @@ lista_moedas.pack(padx=10, pady=10)
 
 
 janela.mainloop()
-
-
-print ("Testing GitHub connection")
