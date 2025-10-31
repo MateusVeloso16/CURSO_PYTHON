@@ -1,0 +1,206 @@
+awesome — here’s a **progression of 100 Python exercises** based on your syllabus.
+I kept ~30 easy, then ramped up to medium and hard. No external libs needed.
+
+**Legend:** [E]=Easy, [M]=Medium, [H]=Hard
+
+1. [E] Print “Hello, Mateus!”.
+
+2. [E] Ask for a name and greet the user.
+
+3. [E] Read two integers and print their sum.
+
+4. [E] Convert Celsius to Fahrenheit.
+
+5. [E] Check if a number is even or odd.
+
+6. [E] Compute area of a circle from radius.
+
+7. [E] Get string input and print its length.
+
+8. [E] Slice a string: first 3 and last 3 chars.
+
+9. [E] Replace vowels in a string with “*”.
+
+10. [E] Count how many times a character appears.
+
+11. [E] Create a list of 5 numbers and print min/max.
+
+12. [E] Sum a list without `sum()` (use loop).
+
+13. [E] Reverse a list in-place.
+
+14. [E] Get a list and remove duplicates (keep order).
+
+15. [E] Check membership: is `x` in list?
+
+16. [E] Create a tuple and try to modify it (observe error).
+
+17. [E] Build a dict of 3 people → ages; access a key safely.
+
+18. [E] Merge two dicts.
+
+19. [E] Count word frequencies in a short sentence.
+
+20. [E] Create a set from a list and explain effect.
+
+21. [E] Use `range()` to print numbers 1..n.
+
+22. [E] Multiplication table for a number (1–10).
+
+23. [E] Sum only even numbers from 1..n.
+
+24. [E] Find the smallest number in a list (manual).
+
+25. [E] Validate if input is a digit before casting.
+
+26. [E] Format a string with f-strings (name, age).
+
+27. [E] Round a float to 2 decimals.
+
+28. [E] Use `split()` and `join()` to normalize spaces.
+
+29. [E] Check if a string is a palindrome.
+
+30. [E] Basic calculator: +, -, *, / via `if`/`elif`.
+
+31. [M] FizzBuzz from 1..100.
+
+32. [M] Count vowels and consonants in a phrase.
+
+33. [M] Find all indices of a substring inside a string.
+
+34. [M] Remove punctuation from a sentence.
+
+35. [M] Rotate a list k positions to the right.
+
+36. [M] Flatten a nested list one level.
+
+37. [M] Get top-3 most frequent words from a paragraph.
+
+38. [M] Binary search (list must be sorted).
+
+39. [M] Bubble sort implementation.
+
+40. [M] Compute factorial iteratively and recursively.
+
+41. [M] Generate Fibonacci up to n (list).
+
+42. [M] Find second largest unique number in list.
+
+43. [M] Matrix addition (2D lists).
+
+44. [M] Transpose a matrix (2D lists).
+
+45. [M] Validate a strong password (len, digit, upper, symbol).
+
+46. [M] Mask email address (keep first/last char before @).
+
+47. [M] Parse CSV-like string into rows/columns (no libs).
+
+48. [M] Remove stopwords from text (given list).
+
+49. [M] Anagram checker (two strings).
+
+50. [M] Check if parentheses are balanced `()[]{}`.
+
+51. [M] Write a function `unique_sorted(iterable)` → sorted uniques.
+
+52. [M] Write `chunk(list, size)` → list of sublists.
+
+53. [M] Implement a simple `min_max(iterable)` returning (min, max).
+
+54. [M] Create `safe_int(s, default=None)` using `try/except`.
+
+55. [M] Build `slugify(text)` (lowercase, dashes, no punctuation).
+
+56. [M] Validate IPv4 string format.
+
+57. [M] Convert Roman numerals ↔ integers.
+
+58. [M] Collatz sequence length for n.
+
+59. [M] Count days until next birthday (use `datetime`).
+
+60. [M] Format today’s date in ISO, US, BR, EU styles.
+
+61. [M] Parse “2025-10-07 21:30” into `datetime`, add 90 minutes.
+
+62. [M] Find the weekday of a given date.
+
+63. [M] Given a list of timestamps, sort chronologically.
+
+64. [M] Measure runtime of a function (simple timer).
+
+65. [M] Implement `apply_discount(price, pct)` with rounding rules.
+
+66. [M] Build a small menu loop (while) with 3 options and exit.
+
+67. [M] Simulate a dice game (random 1..6) best of 10.
+
+68. [M] Validate Brazilian CPF mask (only mask, not checksum).
+
+69. [M] Clean a price string “€1,234.50” → float.
+
+70. [M] Simple unit converter (km↔mi, kg↔lb).
+
+71. [M] Write `map_keys_uppercase(dict)` → keys upper.
+
+72. [M] Group names by first letter (dict of lists).
+
+73. [M] Merge two sorted lists into one sorted (like merge step).
+
+74. [M] Find all primes up to n (Sieve of Eratosthenes).
+
+75. [M] Implement `zip_longest`-like behavior (no libs).
+
+76. [M] Frequency histogram dict for list of integers.
+
+77. [M] Word-wrap text at 40 chars without cutting words.
+
+78. [M] Compute moving average over a numeric list (window k).
+
+79. [M] `enumerate` re-implementation using generator.
+
+80. [M] Luhn checksum (validate credit card pattern only algorithmically).
+
+81. [H] Write `retry(func, n_attempts)` decorator (no args).
+
+82. [H] Write a parameterized decorator `@timed(label="")` printing exec time.
+
+83. [H] Memoization decorator `@memoize` for pure functions.
+
+84. [H] Compose functions: `compose(f, g)(x) = f(g(x))`.
+
+85. [H] Use `map`/`filter`/`lambda` to clean and transform a list of dicts.
+
+86. [H] Pipeline with `map`/`filter` to compute average age by city.
+
+87. [H] Implement a tiny template engine: replace `{name}` in text.
+
+88. [H] Safe eval of arithmetic expressions (only + - * / and digits).
+
+89. [H] Custom exception class `InvalidEmailError` and use it in a validator.
+
+90. [H] Function that retries on specific exceptions with exponential backoff.
+
+91. [H] Parse mixed date formats (“07/10/2025”, “2025-10-07”, “07 Oct 2025”).
+
+92. [H] Timezone-aware delta between two datetimes (assume Europe/Dublin vs UTC).
+
+93. [H] Schedule generator: given start date and RRULE-like params, list next 10 dates.
+
+94. [H] Mini JSON parser for a limited subset (strings, numbers, lists, dicts).
+
+95. [H] Implement `groupby` (like itertools.groupby) behavior.
+
+96. [H] Build a tiny LRU cache (dict + doubly linked list or OrderedDict).
+
+97. [H] CSV reader that yields rows (generator), handling quoted fields.
+
+98. [H] Text justifier: given width, distribute spaces evenly per line.
+
+99. [H] Evaluate RPN (Reverse Polish Notation) expressions.
+
+100. [H] Build a small “task runner”: register functions with a decorator, list tasks, run by name, log success/failure with timestamps and exceptions.
+
+Se quiser, eu gero um **`exercises.md`** com essa lista (ou um **notebook com células** já prontas) — e posso criar um **gabarito** gradual (exs. 1–20 primeiro). Quer em PT-BR, EN, ou ES?
