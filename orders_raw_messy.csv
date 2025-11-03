@@ -1,0 +1,27 @@
+order id,customer_name,email,signup_date,order_date,product,quantity,price_eur,total,country,city,status,phone,postal_code,newsletter_opt_in,notes
+1001,  Ana Silva ,ana.silva@example.com,2024-01-05,05/02/2025,Headphones,2,"€49,99",,Portugal,lisboa,Pending,+351 912 345 678,1100-123,Yes,entregar no período da manhã
+1002,JOÃO PEREIRA,joao.pereira(at)mail.com,05-01-2024,2025/02/06,headphones,1,€49.99,€49.99,PT,Lisboa,Shipped,351912345679,1100 123,TRUE,
+1003,maria  souza,maria.souza@example.com,2023/12/30,07-02-2025,Smart Watch,three,"€129,90",,Brasil,São Paulo,Delivered,(11)91234-5678,01001-000,no,"cliente pediu embalagem para presente, urgente"
+1004,carlos     santos,carlos.santos@example,31/12/23,2025-02-08,SMART WATCH,2,"129,90 €","259,80 €",BR,sao paulo,delivered,,,,—
+1005,Luiza,luiza@example.com,,09/02/25,Mouse, 4 ,"€19,90",,Ireland,Dublin,PEND.,+353 (0)83 123 4567,D02X285,1,Leave at reception
+1006,Pedro Oliveira,pedro.oliveira@example.com,2024-01-10,2025-02-10,Mouse,1,€19.90,€19.90,IE,dublin ,Cancelled,,D02 X285,FALSE,
+1007,María-Luisa,maria.luisa@example.com,10 Jan 2024,11 Feb 2025,Keyboard,2,"€59,00",,España,Madrid,Delivered,+34 612 34 56 78,28001,Si,cliente solicita factura
+1008,O'Conner,oconner@example.com,2024/01/12,2025-02-11,keyboard,02,€59.00,€118.00,ES,MADRID,returned,,,,
+1009,Zé  das Couves,ze.couves@example.com,2024-13-01,12/02/2025,USB-C Cable,5,"€7,50",,Portugal,Porto,pending,91234 5678,4000-001,,Endereço novo a partir de março
+1010,Sofie Müller,sofie.mueller@example.de,2024-01-15,13/02/2025,USB‑C Cable,5,€7.50,€37.50,Germany,Berlin,Delivered,+49 170 1234567,10115,yes,
+1011,  Jean  Dupont,jean.dupont@example.fr,15/01/2024,14-02-2025,Power Bank,1,"€29,99","€29,99",FR,paris,Delivered,,75001,0,—
+1012,Mary O’Neil,mary.oneil@example.co.uk,2024/01/16,2025/02/14,Power bank,one,€29.99,,UK,London,DELIVERED,+44 7700 900123,SW1A 1AA,No,"Leave with neighbour, apt 3"
+1013,N/A,noemail,2024-01-17,15/02/2025,"Monitor 24""",2,"€149,00",,NULL,N/A,Unknown,,,,
+1014,Yuki Tanaka,yuki.tanaka@example.jp,2024-01-18,16/02/2025,Monitor 24in,2,€149.00,€298.00,Japan,Tokyo,Delivered,,100-0001,Yes,包装必要
+1015,Luís   ,luis@example.com,18-01-2024,17/02/2025,Mouse,0,"€19,90","€0,00",Portugal,Lisboa,Delivered,,1100-123,Yes,
+1016,Catarina,catarina@example.com,2024-01-19,2025-02-17,Headphones,-1,"€49,99",,Portugal,Lisboa,Returned,,1100-123,Yes,quantidade negativa registrada
+1017,Miguel,miguel@example.com,2024-01-20,2025-02-18,Keyboard,two,€59.00,,Portugal,Porto,Delivered,,4000-001,Yes,
+1018,Aline,aline@example.com,2024-01-21,2025-02-18,usb-c cable,3,€7.50,,PT,porto,Delivered,,4000-001,Yes,
+1019,Bruna,bruna@example.com,2024-01-22,2025-02-19,POWER-BANK,1,"€29,99",,PT,Braga,Delivered,,4700-001,Yes,
+1020,Carlos,carlos@example.com,2024-01-23,2025-02-20,Mouse,1,€19.90,,PT,Guimarães,Delivered,,4810-001,Yes,
+1002,JOAO  PEREIRA,joao.pereira@mail.com,2024-01-05,2025-02-06,HeadPhones,1,"€49,99",,Portugal,Lisboa,Shipped,,1100-123,YES,
+1010,Sofie Mueller,sofie.mueller@example.de,2024-01-15,2025-02-13,USB-C cable,5,"€7,50",,DE,Berlin,Delivered,,10115,YES,
+1021,Álvaro,alvaro@example.com,2024-01-24,20/02/2025,Keyboard,2,"€59,00","€118,00",Portugal,PORTO,Delivered,,4000-001,Yes,
+1022,Beatriz,beatriz@example.com,24 Jan 2024,21-02-2025,Headphones, 1 ,€49.99,,Portugal,Lisbon,Delivered,,1100-123,Yes,
+1023,Caio,caio@example.com,2024/01/25,2025/02/21,Monitor 24'',1,€149.00,€149.00,Portugal,Porto,Delivered,,4000-001,Yes,
+1024,Diana,diana@example.com,2024/01/26,2025/02/22,Power–Bank,1,"€29,99",,Portugal,Coimbra,Delivered,,3000-001,Yes,"cliente exigente, atenção!"
